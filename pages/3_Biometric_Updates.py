@@ -73,3 +73,16 @@ age_bio.columns = ["Age Group", "Total Updates"]
 
 st.bar_chart(age_bio.set_index("Age Group"))
 st.caption("Comparison of biometric update counts across age groups.")
+
+
+st.markdown(
+    """
+    <hr style="margin-top: 50px;">
+    <div style="text-align: center; font-size: 12px; color: #6c757d;">
+        Built by <a href="https://whoiswasim.vercel.app/" target="_blank"
+        style="text-decoration: none; color: #0d6efd;">
+        SK Wasim Afrose</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
